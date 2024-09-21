@@ -105,12 +105,12 @@ export const { createTheme, keyframes, styled, globalCss, getCssText } =
         red11: '$crimson11',
         red12: '$crimson12',
 
-        neutralBg: 'white',
-        neutralBgSubtle: 'white',
+        neutralBg: '#000000',
+        neutralBgSubtle: '$gray3',
         panelShadow: 'rgba(0,0,0,0.1)',
         panelBg: '$gray2',
         panelBorder: 'transparent',
-        dropdownBg: 'white',
+        dropdownBg: '$gray3',
         sidebarOverlay: 'black',
       },
       space: {
