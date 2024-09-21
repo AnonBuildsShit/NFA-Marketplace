@@ -12,7 +12,7 @@ const ThemeSwitcher = () => {
     <Flex>
       <ToggleGroup
         type="single"
-        defaultValue="light"
+        defaultValue="dark"
         value={theme}
         css={{ width: '100%' }}
       >
