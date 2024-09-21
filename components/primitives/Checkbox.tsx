@@ -18,8 +18,8 @@ const CheckboxRoot = styled(CheckboxPrimitive.Root, {
   borderStyle: 'solid',
   borderColor: '$gray7',
   '&[data-state=checked]': {
-    borderColor: '$primary7',
-    backgroundColor: '$primary9',
+    borderColor: '$red7',
+    backgroundColor: '$red9',
   },
 })
 

@@ -15,15 +15,15 @@ export const AnchorStyle = {
   variants: {
     color: {
       primary: {
-        color: '$primary11',
+        color: '$red11',
         '&:hover': {
-          color: '$primary10',
+          color: '$red10',
         },
       },
       gray: {
         color: '$gray11',
         '&:hover': {
-          color: '$primary11',
+          color: '$red11',
         },
       },
     },

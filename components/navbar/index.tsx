@@ -66,7 +66,7 @@ const Navbar = () => {
           <Link href={`/${routePrefix}`}>
             <Box css={{ width: 46, cursor: 'pointer' }}>
               <Image
-                src="/reservoirLogo.svg"
+                src="https://ipfs.io/ipfs/QmaWfG4KDfFW3RNv2xEpFjYTZNgJhBX59L4goNvVRYFaNa"
                 width={36}
                 height={36}
                 alt="Reservoir"
@@ -115,7 +115,7 @@ const Navbar = () => {
           <Link href={`/${routePrefix}`}>
             <Box css={{ cursor: 'pointer' }}>
               <Image
-                src="/reservoirLogo.svg"
+                src="https://ipfs.io/ipfs/QmaWfG4KDfFW3RNv2xEpFjYTZNgJhBX59L4goNvVRYFaNa"
                 width={36}
                 height={36}
                 alt="Reservoir"
@@ -129,9 +129,6 @@ const Navbar = () => {
               ml: '$5',
             }}
           >
-            <Link href={`/${routePrefix}`}>
-              <NavItem>Explore</NavItem>
-            </Link>
 
             <HoverCard.Root openDelay={200}>
               <HoverCard.Trigger>
@@ -192,7 +189,7 @@ const Navbar = () => {
                   <NavItem>Developers</NavItem>
                 </a>
               </HoverCard.Trigger>
-              <HoverCard.Content sideOffset={24} align="start">
+              {/* <HoverCard.Content sideOffset={24} align="start">
                 <Card css={{ p: 24, width: 240 }}>
                   <Flex css={{ gap: '$4' }} direction="column">
                     <a target="_blank" href={`https://reservoir.tools`}>
@@ -224,7 +221,7 @@ const Navbar = () => {
                     </a>
                   </Flex>
                 </Card>
-              </HoverCard.Content>
+              </HoverCard.Content> */}
             </HoverCard.Root>
           </Box>
           {isConnected && (

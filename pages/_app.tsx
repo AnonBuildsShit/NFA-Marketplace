@@ -51,7 +51,7 @@ export const NORMALIZE_ROYALTIES = process.env.NEXT_PUBLIC_NORMALIZE_ROYALTIES
   : false
 
 const WALLET_CONNECT_PROJECT_ID =
-  process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID || ''
+  process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID || '0424d5c9d830ec6deb6ec4dcdb642c11'
 
 const DISABLE_PROXY =
   process.env.NEXT_PUBLIC_DISABLE_PROXY === 'true' ? true : false
@@ -85,8 +85,8 @@ const queryClient = new QueryClient()
 const reservoirKitThemeOverrides = {
   headlineFont: inter.style.fontFamily,
   font: inter.style.fontFamily,
-  primaryColor: '#6E56CB',
-  primaryHoverColor: '#644fc1',
+  primaryColor: '#FE0000',
+  primaryHoverColor: '#FE0000',
 }
 
 function AppWrapper(props: AppProps & { baseUrl: string }) {

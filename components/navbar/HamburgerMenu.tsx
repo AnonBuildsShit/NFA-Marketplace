@@ -61,7 +61,7 @@ const HamburgerMenu = () => {
           <Link href="/">
             <Box css={{ width: 46, cursor: 'pointer' }}>
               <Image
-                src="/reservoirLogo.svg"
+                src="https://ipfs.io/ipfs/QmaWfG4KDfFW3RNv2xEpFjYTZNgJhBX59L4goNvVRYFaNa"
                 width={36}
                 height={36}
                 alt="Reservoir"
@@ -171,7 +171,7 @@ const HamburgerMenu = () => {
               </Text>
             </Link>
 
-            <Anchor
+            {/* <Anchor
               href="https://docs.reservoir.tools/docs"
               target="_blank"
               css={{
@@ -183,7 +183,7 @@ const HamburgerMenu = () => {
               }}
             >
               <Text style="subtitle1">Developers</Text>
-            </Anchor>
+            </Anchor> */}
             <Link href="/portfolio" legacyBehavior>
               <Flex
                 direction="column"
@@ -268,7 +268,7 @@ const HamburgerMenu = () => {
                   Portfolio
                 </Text>
               </Link>
-              <Anchor
+              {/* <Anchor
                 href="https://docs.reservoir.tools/docs"
                 target="_blank"
                 css={{
@@ -280,7 +280,7 @@ const HamburgerMenu = () => {
                 }}
               >
                 <Text style="subtitle1">Docs</Text>
-              </Anchor>
+              </Anchor> */}
             </Flex>
             <Box>
               <ConnectWalletButton />
@@ -297,7 +297,7 @@ const HamburgerMenu = () => {
             borderTop: '1px solid $gray4',
           }}
         >
-          <a href="https://twitter.com/reservoir0x" target="_blank">
+          <a href="https://x.com/NFA_Inc" target="_blank">
             <Button
               css={{ justifyContent: 'center', width: '44px', height: '44px' }}
               type="button"
