@@ -35,11 +35,11 @@ class MyDocument extends Document {
         <link
           rel="shortcut icon"
           type="image/svg"
-          href="https://marketplace.reservoir.tools/reservoir.svg"
+          href="https://ipfs.io/ipfs/QmaWfG4KDfFW3RNv2xEpFjYTZNgJhBX59L4goNvVRYFaNa"
         />
 
         {/* Reservoir meta tags */}
-        <meta property="reservoir:title" content="Reservoir NFT Explorer" />
+        <meta property="reservoir:title" content="NFA | Non-Fungible Art" />
         <meta property="reservoir:icon" content="/reservoir-source-icon.png" />
         <meta
           property="reservoir:token-url-mainnet"

@@ -27,6 +27,8 @@ import MintsPeriodDropdown, {
   MintsSortingOption,
 } from 'components/common/MintsPeriodDropdown'
 import { FeaturedCards } from 'components/home/FeaturedCards'
+import { TrendingCards } from 'components/home/TrendingCards'
+import { TrendingMintsCards } from 'components/home/TrendingMints'
 import { TabsContent, TabsList, TabsTrigger } from 'components/primitives/Tab'
 import { CollectionRankingsTable } from 'components/rankings/CollectionRankingsTable'
 import { MintRankingsTable } from 'components/rankings/MintRankingsTable'
@@ -177,6 +179,56 @@ const Home: NextPage<Props> = ({ ssr }) => {
             <FeaturedCards collections={featuredCollections} />
           </Box>
         </Box>
+        <Box
+          css={{
+            mb: 64,
+          }}
+        >
+          <Flex
+            justify="between"
+            align="start"
+            css={{
+              gap: 24,
+              mb: '$4',
+            }}
+          >
+            <Text style="h4" as="h4">
+              Trending
+            </Text>
+          </Flex>
+          <Box
+            css={{
+              height: '100%',
+            }}
+          >
+            <TrendingCards collections={trendingCollections} />
+          </Box>
+        </Box>
+        {/* <Box
+          css={{
+            mb: 64,
+          }}
+        >
+          <Flex
+            justify="between"
+            align="start"
+            css={{
+              gap: 24,
+              mb: '$4',
+            }}
+          >
+            <Text style="h4" as="h4">
+              Trending Mints
+            </Text>
+          </Flex>
+          <Box
+            css={{
+              height: '100%',
+            }}
+          >
+            <TrendingMintsCards collections={trendingMints} />
+          </Box>
+        </Box> */}
 
         <Tabs.Root
           onValueChange={(tab) => setTab(tab as TabValue)}

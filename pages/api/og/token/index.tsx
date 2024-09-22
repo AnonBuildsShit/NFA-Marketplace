@@ -24,7 +24,8 @@ export default async function handler(request: NextRequest) {
 
   if (!base64EncodedToken) {
     return new ImageResponse(
-      <img src={`${process.env.NEXT_PUBLIC_HOST_URL}/og-image.png`} />,
+      <img src={`${process.env.NEXT_PUBLIC_HOST_URL}/og-image.png`}
+        alt="NFA" />,
       {
         width: 1200,
         height: 630,
@@ -143,6 +144,7 @@ export default async function handler(request: NextRequest) {
                 width: '550px',
               }}
               src={token.token?.image || token.token?.collection?.image}
+              alt="NFA"
             />
           </div>
           <div
