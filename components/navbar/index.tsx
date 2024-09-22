@@ -69,7 +69,7 @@ const Navbar = () => {
                 src="https://ipfs.io/ipfs/QmaWfG4KDfFW3RNv2xEpFjYTZNgJhBX59L4goNvVRYFaNa"
                 width={36}
                 height={36}
-                alt="Reservoir"
+                alt="NFA"
               />
             </Box>
           </Link>
